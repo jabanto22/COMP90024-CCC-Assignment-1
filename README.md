@@ -53,6 +53,3 @@ Your application should allow a given number of nodes and cores to be utilized. 
 * 2 nodes and 8 cores (with 4 cores per node).
 
 The resources should be set when submitting the search application with the appropriate SLURM options. 
-
-## Final packaging and delivery 
-You should write a brief report on the application – no more than 4 pages!, outlining how it can be invoked, i.e. it should include the scripts used for submitting the job to SPARTAN, the approach you took to parallelize your code, and describe variations in its performance on different numbers of nodes and cores. Your report should also include a single graph (e.g. a bar chart) showing the time for execution of your solution on 1 node with 1 core, on 1 node with 8 cores and on 2 nodes with 8 cores.
