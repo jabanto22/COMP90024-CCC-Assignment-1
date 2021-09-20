@@ -26,7 +26,7 @@ sad -2
 ```
 * melbGrid.json
   * includes the latitudes and longitudes of a range of gridded boxes as illustrated in the figure below, i.e., the latitude and longitude of each of the corners of the boxes is given in the file.
-  ![alt text](https://github.com/jabanto22/COMP90024-CCC-Assignment-1/blob/main/melbGrid.png?raw=true)
+  ![melbGrid.png](https://github.com/jabanto22/COMP90024-CCC-Assignment-1/blob/main/melbGrid.png?raw=true)
   
 Your assignment is to (eventually!) search the large Twitter data set (bigTwitter.json) and using just the tweet text and the tweet location (lat/long) that contain exact matches of the terms in the AFINN.txt file, count the total number of tweets in a given cell and aggregate the sentiment score for each grid cell for all of the data. The final
 result will be a score for each cell with the following format, where the numbers are obviously representative.
